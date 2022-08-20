@@ -12,8 +12,6 @@ def talker():
         effort_.effort = [10,0,0,0,0,0]
         
         state_pub.publish(effort_)
-    
-    state_pub.publish(effort_)
 
 if __name__ == '__main__':
     try:
